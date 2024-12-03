@@ -1,0 +1,2 @@
+0. Nazwa - co zrobić aby przetestować - spodziewany wynik
+1. Wybór przejechanych kilometrów - wybrać każdą z trzech opcji - strona przekieruje użytkownika dalej
