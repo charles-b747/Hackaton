@@ -7,35 +7,35 @@
     content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
   >
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="../static/css/style.css">
-  <title>Kalkulator efektywności energetycznej dla inteligentnych domów</title>
+  <link rel="stylesheet" href="../static/css/style2.css">
+  <title>Kalkulator emisji Co2 pojazdu</title>
 </head>
 <body>
   <header class="header">
     <div class="header__text">
-      <h1>Oblicz efektywność energetyczną swojego domu!</h1>
-      <p>Wykaż inicjatywę i rozwiąż problem nadmiernego zużycia energii</p>
+      <h1>Oblicz emisje twojego samochodu!</h1>
+      <p>Wykaż inicjatywę i rozwiąż problem zanieczysczania powietrza</p>
     </div>
   </header>
   <main>
     {% block content %}
-    <h2 class="main__title">Wybierz jak duży jest Twój dom:</h2>
+    <h2 class="main__title">Ile kilometrów przejechał twój samochód?</h2>
     <ul class="list">
       <li class="list__item">
         <a href="/1">
         <img class="item__img" src="../static/img/home.svg" alt="home">
-        <span>Mały dom</span></a>
+        <span>100 km lub mniej</span></a>
       </li>
       <!-- Zadanie #1 -->
       <li class="list__item">
         <a href="/2">
         <img class="item__img" src="../static/img/home.svg" alt="home">
-        <span>Średni dom</span></a>
+        <span>500 km</span></a>
       </li>
       <li class="list__item">
         <a href="/3">
         <img class="item__img" src="../static/img/home.svg" alt="home">
-        <span>Duży dom</span></a>
+        <span>1000 km lub więcej</span></a>
       <!--  -->
       </li>
     </ul>
