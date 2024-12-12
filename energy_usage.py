@@ -4,12 +4,60 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 
-def result_calculate(distance, gas, consumption):
+#def result_calculate(distance, gas, consumption):
 # Zmienne umożliwiające obliczenie poboru energii przez urządzenia
-    home_coef = 100
-    light_coef = 0.04
-    consumptions_coef = 5   
-    return distance * home_coef + gas * light_coef + consumption * consumptions_coef 
+ #   if distance == "150 km lub mniej":
+  #      distance = 150
+   # elif distance == "500 km":
+    #    distance = 500
+   # elif distance == "1000 km lub więcej":
+    #    distance = 1000
+        
+    #if gas == "Benzyna":
+      #  gas = 2392
+    #elif gas == "Diesel":
+      #  gas = 2650
+    #elif gas == "Hybryd":
+     #   gas = 2200
+    
+    #if consumption == "5L/100km lub więcej":
+     #   consumption = 0.05
+    #elif consumption == "ok. 8L/100km":
+      #  consumption = 0.08
+    #elif consumption == "10L/100km lub więcej":
+     #   consumption = 0.1
+
+   # return (distance * consumption * gas)/1000
+
+def result_calculate(distance, gas, consumption):
+    if distance == 1:
+        distance = 150
+    elif distance == 2:
+        distance = 500
+    elif distance == 3:
+        distance = 1000
+
+    if gas == 1:
+        gas = 8887
+    elif gas == 2:
+        gas = 8887
+    elif gas == 3:
+        gas = 10180
+    elif gas == 4:
+        gas = 120
+
+    if consumption == 1:
+        consumption = 5/100
+    elif consumption == 2:
+        consumption = 8/100
+    elif consumption == 3:
+        consumption = 10/100
+    elif consumption == 4:
+        consumption = (18*0.25)/100
+
+    print(distance,gas,consumption)
+    return (distance * consumption * gas) / 1000
+
 
 # Pierwsza strona
 @app.route('/')
