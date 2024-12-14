@@ -38,25 +38,25 @@ def result_calculate(distance, gas, consumption):
         distance = 1000
 
     if gas == 1:
-        gas = 8887
+        gas = 2200
     elif gas == 2:
-        gas = 8887
+        gas = 2392
     elif gas == 3:
-        gas = 10180
+        gas = 2650
     elif gas == 4:
-        gas = 120
+        gas = 18
 
     if consumption == 1:
-        consumption = 5/100
+        consumption = 0.05
     elif consumption == 2:
-        consumption = 8/100
+        consumption = 0.08
     elif consumption == 3:
-        consumption = 10/100
+        consumption = 0.10
     elif consumption == 4:
-        consumption = (18*0.25)/100
+        consumption = 0.25*10
 
     print(distance,gas,consumption)
-    return (distance * consumption * gas) / 1000
+    return (distance * consumption * gas)/1000
 
 
 # Pierwsza strona
