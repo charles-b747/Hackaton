@@ -18,3 +18,15 @@ Przykład średniego wyniku:
 Przykład wysokiego wyniku:
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/929a89a4-ddc5-4a6d-8c56-656b831c39e2" />
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/d214bcd1-117b-4a7c-abbb-2c03dd0601c0" />
+
+## Jak skożystać z kalkulatora:
+Najpierw musisz wybrać przejechany dystans
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/3fb37e49-4270-45f5-9796-908f8512cc47" />
+
+Póżniej typ paliwa
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/272da555-7150-48d1-9bde-080fa4f6d51b" />
+
+A na koniec zużycie paliwa
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/75189fbf-2032-4a43-950f-156ec18dda06" />
+
+Et voilà!
