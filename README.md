@@ -1,6 +1,13 @@
-## Oto pomysł na mój projekt:
-> Zaimplementowanie wynagrodzenia osobom które chcą zamienić swój samochód Diesla na Samochód Elektryczny.
-Projekt będzie stroną internetową która będzie analizować jak szkodliwe są spaliny samochodu użytkownika i 
-jeśli się okaże że jego samochód bardzo szkodzi powietrzu dostaje informacje o zmianie samochodu na hybryda 
-lub elektrycznego samochodu, i dlaczego to jest dobra opcja.
+## Co robi mój projekt?
+> Mój projekt to kalkulator emisji Co2 samochodu zaimplementowany w stronie internetowej ciekawie estetycznego wyglądu. Użytkownik podaje przejechany dystans (w kilometrach), typ paliwa który używa samochód i zużycie paliwa (podane w L/100km). Z tymi danymi, kod liczy całkowitą wartość emisji Co2 samochodu i podaje użytkownikowi wynik w kilogramach. Jeśli wynik będzie dobry, Użytkownik dostanie jedynie wynik. Jeśli będzie on średnio dobry, Użytkownik dostanie także przydatne wskazówki po to żeby ograniczyć czas spędzany w samochodzie. Jeśli wynik będzie wysoki, strona poinformuje Użytkownika o plusach zmiany samochodu na elektrycznego.
+
+## Przykład niskiego wyniku:
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/ceacec79-53bc-400d-9e0a-955eb79cfd50" />
+
+## Przykład średniego wyniku:
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/82ee2bc3-6051-44d1-939d-3b02b4b0213f" />
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/bb59dc95-d21c-4075-850c-6b1e7507e587" />
+
+## Przykład wysokiego wyniku:
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/929a89a4-ddc5-4a6d-8c56-656b831c39e2" />
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/01630a58-c40f-4638-9b92-72cf908c658b" />
