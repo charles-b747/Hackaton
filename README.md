@@ -8,13 +8,13 @@
 > Większość kalkulatorów emisji Co2 wymaga dokładnych miar przejechanego dystansu, spalania paliwa, itd. Ten kalkulator to całkowicie inna bajka. Nie muszisz się przejmować jeśli nie pamiętasz dokładnie wszystkich potrzebnych liczb, możesz wybrać reprezentacyjne wartośći żeby wyznaczyć przedział w którym ta wartość się znajduję.
 
 ## Przykład końcowego wyniku:
-> Przykład niskiego wyniku:
+Przykład niskiego wyniku:
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/ceacec79-53bc-400d-9e0a-955eb79cfd50" />
 
-> Przykład średniego wyniku:
+Przykład średniego wyniku:
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/82ee2bc3-6051-44d1-939d-3b02b4b0213f" />
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/0ebbca98-cb02-4d18-bc39-0550f987fb8c" />
 
-> Przykład wysokiego wyniku:
+Przykład wysokiego wyniku:
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/929a89a4-ddc5-4a6d-8c56-656b831c39e2" />
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/d214bcd1-117b-4a7c-abbb-2c03dd0601c0" />
