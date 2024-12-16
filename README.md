@@ -35,4 +35,4 @@ Et voilà!
 
 ## Feedback:
 > Jeśli będziesz miał jakieś trudnosći z instalacją projektu, znajdziesz jakiś bład, lub zechcesz się ze mną skontaktować napisz mi maila!
-Mój adres e-mail: b747.programmer@gmail.com
+> Mój adres e-mail: b747.programmer@gmail.com
