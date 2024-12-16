@@ -67,6 +67,16 @@ main {
     border: 1px solid #EB8028;
     transition: 0.2s;
 }
+
+.list__normal {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000000;
+    gap: 20px;
+}
+
 .item__img {
     object-fit: contain;
     width: 150px;

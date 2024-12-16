@@ -21,25 +21,40 @@
         <img class="rez__img" src="../../static/img/planet_good.svg" alt="">
         <span>Twój wynik: {{result}} kg</span>
         <span>Twój samochód jest wyjątkowo przyjazny środowisku!</span>
-        {%elif result >= 29.0  and result < 66.9 %}
+        
+        {%elif result >= 29.0  and result < 97 %}
         <img class="rez__img" src="../../static/img/planet_medium.svg" alt="">
         <span>Twój wynik: {{result}} kg</span>
         <span>Twój samochód jest średnio przyjazny środowisku!</span>
-        <h4>  Mniej przejechanych kilometrów oznacza mniej emisji.
-          
-          Oto parę wskazówek, aby ograniczyć czas spędzany na jeździe samochodem:
-          - Chodź pieszo lub jedź rowerem, kiedy możesz.
-          - Korzystaj z programów współdzielenia rowerów, jeśli są dostępne w Twoim mieście.
-          - Jeśli to możliwe, korzystaj z transportu publicznego.
-          - Podróżuj wspólnie z przyjaciółmi zamiast jeździć samemu.
-          - Korzystaj z usług współdzielenia przejazdów.
-          - Planuj z wyprzedzeniem, aby jak najlepiej wykorzystać swoje podróże i „łańcuch podróży”. Jeśli Twój sklep spożywczy znajduje się w pobliżu innych miejsc, które musisz odwiedzić, zrób to wszystko na raz.
-          - Pracuj okresowo z domu, jeśli pozwala Ci na to Twoja praca.
-        </h4>
-        {%elif result >= 106%}
+        <span> Mniej przejechanych kilometrów oznacza mniej emisji.</span>
+        <h3>uierfhnunfuoenoiuejfioerjfioerjfiouersjfipoerfjioe</h3>
+        <span>Oto parę wskazówek, aby ograniczyć czas spędzany na jeździe samochodem:</span>
+        <ul>
+          <li>- Chodź pieszo lub jedź rowerem, kiedy możesz.</li>
+          <li>- Korzystaj z programów współdzielenia rowerów, jeśli są dostępne w Twoim mieście.</li>
+          <li>- Jeśli to możliwe, korzystaj z transportu publicznego.</li>
+          <li>- Podróżuj wspólnie z przyjaciółmi zamiast jeździć samemu.</li>
+          <li>- Korzystaj z usług współdzielenia przejazdów.</li>
+          <li>- Jeśli Twój sklep spożywczy znajduje się w pobliżu innych miejsc, które musisz odwiedzić, zrób to wszystko na raz.</li>
+          <li>- Pracuj okresowo z domu, jeśli pozwala Ci na to Twoja praca.</li>
+        </ul>
+        
+        {%elif result >= 97%}
         <img class="rez__img" src="../../static/img/planet_bad.svg" alt="">
         <span>Twój wynik: {{result}} kg</span>
         <span>Emisje Co2 Twojego samochodu są powyżej średniej!</span>
+        <span>Jeśli korzystasz z samochodu diesel lub z benzyny warto jest rozważyć zmianę.</span>
+        <h3>uierfhnunfuoenoiuejfioerjfioerjfiouersjfipoerfjioe</h3>
+        <span>Oto parę plusów elektrycznych samochodów:</span>
+        <ol>
+          <li>Redukcja emisji: Nie emitują żadnych gazów cieplarnianych do atmosfery, co pomaga w walce z zanieczyszczeniem powietrza i ograniczaniu emisji gazów cieplarnianych.</li>
+          <li>Wydajność energetyczna: Samochody elektryczne przetwarzają ponad 60% energii elektrycznej z sieci na energię elektryczną pobieraną z kół, podczas gdy konwencjonalne pojazdy benzynowe przetwarzają jedynie około 20% energii zmagazynowanej w benzynie.</li>
+          <li>Niższe koszty utrzymywania: Ładowanie pojazdu elektrycznego może być tańsze niż tankowanie benzyny, a ponadto ma on mniej ruchomych części, co oznacza mniej napraw.</li>
+          <li>Cicha jazda: Samochody elektryczne są znacznie cichsze od pojazdów tradycyjnych, co przyczynia się do mniejszego zanieczyszczenia hałasem w naszych społecznościach.</li>
+          <li>Energia odnawialna: Samochody elektryczne ładowane energią ze źródeł odnawialnych, np. energią słoneczną lub wiatrową, mogą być naprawdę ekologiczne, co czyni je zrównoważonym wyborem.</li>
+          <li>Zachęty: Wiele rządów oferuje ulgi podatkowe, rabaty i zachęty za zakup pojazdów elektrycznych, dzięki czemu stają się one bardziej dostępne.</li>
+          <li>Innowacyjna technologia: Samochody elektryczne często są wyposażone w najnowsze technologie, w tym zaawansowane funkcje bezpieczeństwa.</li>
+        </ol>
         {%endif%}
     </div>
     {% endblock %}
