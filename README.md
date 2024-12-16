@@ -30,3 +30,9 @@ A na koniec zużycie paliwa
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/75189fbf-2032-4a43-950f-156ec18dda06" />
 
 Et voilà!
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/945309ad-1a90-409d-9e31-aaf385abdfca" />
+(Wyświetlona strona zależy od wyniku)
+
+## Feedback:
+> Jeśli będziesz miał jakieś trudnosći z instalacją projektu, znajdziesz jakiś bład, lub zechcesz się ze mną skontaktować napisz mi maila!
+Mój adres e-mail: b747.programmer@gmail.com
