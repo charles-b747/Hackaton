@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.gstatic.com/s/montserrat/v30/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aXo.woff2');
 
 body {
     margin: 0;
@@ -7,7 +7,7 @@ body {
     font-size: 18px;
     line-height: 20px;
     background-color: #fff;
-    color: #272727;
+    color: #5b0000;
 }
 
 h1, h2, p {
@@ -21,7 +21,7 @@ ul {
 }
 
 .header {
-    background-image: url("../img/back.jpg");
+    background-image: url("../img/EV.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left;
@@ -36,9 +36,10 @@ ul {
 .header__text {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 60px;
     width: fit-content;
-    text-align: right;
+    text-align: end;
+    margin-bottom: 100px;
 }
 
 main {
