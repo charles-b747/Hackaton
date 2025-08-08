@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pl">
 <head>
   <meta charset="UTF-8">
   <meta
@@ -7,8 +7,8 @@
     content="width=consumption-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
   >
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="../static/css/style2.css">
-  <title>Kalkulator efektywności energetycznej dla inteligentnych domów</title>
+  <link rel="stylesheet" href="../static/css/style.css">
+  <title>Kalkulator emisji CO2 pojazdu</title>
 </head>
 <body>
   <header class="header">
@@ -21,33 +21,31 @@
     {% block content %}
     <h2 class="main__title">Podaj zużycie paliwa:</h2>
     <ul class="list" id="list">
-      <!-- Zadanie #3 -->
       <li class="list__item">
-        <a href="{{gas}}/1"> <!--Ustaw ścieżkę-->
-          <img class="item__img" src="../static/img/Fuel gauge.png" alt="battery">
+        <a href="{{gas}}/1"> 
+          <img class="item__img" src="../static/img/fuel gauge.png" alt="fuelgauge">
           <span>5L/100km lub więcej</span></a>
       </li>
       <li class="list__item">
-        <a href="{{gas}}/2"> <!--Ustaw ścieżkę-->
-          <img class="item__img" src="../static/img/Fuel gauge.png" alt="battery">
+        <a href="{{gas}}/2"> 
+          <img class="item__img" src="../static/img/fuel gauge.png" alt="fuelgauge">
           <span>ok. 8L/100km</span></a>
       </li>
       <li class="list__item">
-        <a href="{{gas}}/3"> <!--Ustaw ścieżkę-->
-          <img class="item__img" src="../static/img/Fuel gauge.png" alt="battery">
+        <a href="{{gas}}/3"> 
+          <img class="item__img" src="../static/img/fuel gauge.png" alt="fuelgauge">
           <span>10L/100km lub więcej</span></a>
       </li>
       <li class="list__item">
-        <a href="{{gas}}/4"> <!--Ustaw ścieżkę-->
-          <img class="item__img" src="../static/img/EV2.png" alt="battery">
+        <a href="{{gas}}/4"> 
+          <img class="item__img" src="../static/img/EV2.png" alt="fuelgauge">
           <span>Elektryczny lub Plug-in Hybryd</span></a>
       </li>
-      <!--  -->
     </ul>
     {% endblock %}
   </main>
   <footer>
-
+Contact us: b747.programmer@gmail.com
   </footer>
 </body>
 </html>

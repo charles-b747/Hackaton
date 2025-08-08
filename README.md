@@ -5,7 +5,7 @@
 > Projekt ma jako cel uświadomienie kierowcy samochodu śladu węglowym jego samochodu. Może się ten wynik wydawać mały na skale światową, ale trzeba też pomyśleć "A co jakby każdy miał duży ślad węglowy i się tym nie przejmował?". Jeśli taka by była sytuacja to już łatwo się domyślić jaka byłaby średnia śladu węglowego na świecie: Strasznie wysoka. Dlatego każdy mały gest ma znaczenie, i jeśli każdy zrobi swój gest to na pewno będzie lepiej.
 
 ## Jakie są jego cechy?
-> Większość kalkulatorów emisji Co2 wymaga dokładnych miar przejechanego dystansu, spalania paliwa, itd. Ten kalkulator to całkowicie inna bajka. Nie muszisz się przejmować jeśli nie pamiętasz dokładnie wszystkich potrzebnych liczb, możesz wybrać reprezentacyjne wartośći żeby wyznaczyć przedział w którym ta wartość się znajduję.
+> Większość kalkulatorów emisji Co2 wymaga dokładnych miar przejechanego dystansu, spalania paliwa, itd. Ten kalkulator to całkowicie inna bajka. Nie muszisz się przejmować jeśli nie pamiętasz dokładnie wszystkich potrzebnych liczb, możesz wybrać reprezentacyjne wartośći żeby wyznaczyć przedział w którym ta wartość się znajduję. Jeżeli jednak wolisz wprowadzić dokładne wartości, niedługo będzie ta funkcja dostępna ;)
 
 ## Przykład końcowego wyniku:
 Przykład niskiego wyniku:
